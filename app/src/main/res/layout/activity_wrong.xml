@@ -12,6 +12,7 @@
     tools:context="com.example.ahmed.alarmapptask.Wrong">
 
     <TextView
+        android:id="@+id/tv"
         android:textSize="50dp"
         android:gravity="center"
         android:layout_centerInParent="true"
@@ -19,5 +20,12 @@
         android:textColor="#ffffff"
         android:textAppearance="?android:textAppearanceLarge"
         android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <Button
+        android:text="back"
+        android:layout_centerInParent="true"
+        android:id="@+id/btn_back"
+        android:layout_below="@+id/tv"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content" />
 </RelativeLayout>
